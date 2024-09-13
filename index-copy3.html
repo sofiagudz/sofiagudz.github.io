@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        #main-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 90%;
+            flex-wrap: wrap;
+        }
+        #div1{
+            display: flex; 
+            align-items: center;
+            gap: 20px;
+            justify-content: flex-start;
+            background-color: #96aad4;
+            height: 22vh;
+            width: 80%;
+            border: 2px solid black;
+        }
+        #h1-1{
+            flex-basis: 26%;
+            margin-left: 1%;
+            padding-right: 1%;
+            border: 2px solid black;
+            text-align: right;
+            flex-wrap: wrap;
+            background-color: white;
+            font-size: 2.1em;
+        }
+        #div2{
+            display: flex;
+            width: 80%;
+            height: 47vh;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        #div2-1{
+            flex-basis: 26%;
+            background-color: #ebd4be;
+            border-right: 2px solid black;
+            padding: 3% 0.7% 0 0.9%;
+        }
+        #div2-2{
+            flex-basis: 6%;
+            border-right: 2px solid black;
+        }
+        #div2-3{
+            flex-basis: 20%;
+            border-right: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+        #div2-4{
+            flex-basis: 6%;
+            border-right: 2px solid black;
+        }
+        #div2-5{
+            width: 42%;
+        }
+        #div2-5-1{
+            flex-basis: 42%;
+            height: 30%;
+            background-color: #ebd4be;
+            border-bottom: 2px solid black;
+            padding: 3% 0.7% 0 2.1%;
+        }
+        #div2-5-2{
+            display: flex;
+            height: 70%;
+        }
+        #div2-5-2-1{
+            flex-basis: 44%;
+            border-right: 2px solid black;
+            padding: 3% 0.7% 0 2.1%;
+        }
+        #div2-5-2-2{
+            flex-basis: 14%;
+            border-right: 2px solid black;
+        }
+        #div2-5-2-3{
+            flex-basis: 44%;
+            background-color: #b0cfb4;
+            padding: 3% 0.7% 0 2.1%;
+        }
+        #div3{
+            display: flex; 
+            align-items: center;
+            border: 2px solid black;
+            width: 80%;
+            height: 22vh;
+            gap: 20px;
+            justify-content: flex-end;
+            background-color: #96aad4;
+        }
+        #h1-2{
+            flex-basis: 25%;
+            margin-right: 1%;
+            padding-left: 1%;
+            border: 2px solid black;
+            text-align: left;
+            flex-wrap: wrap;
+            background-color: white;
+            font-size: 2.1em;
+        }
+        #links{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin: 0.5% 0 0.5% 0;
+        }
+        a{
+            margin-right: 0.5%;
+            font-size: 1.2em;
+            color: #0a0a0a;
+            text-decoration: none;
+        }
+        .active{
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+            color: rgba(26, 54, 211, 0.982);
+            font-size: 1.3em;
+        }
+        .a-hover:hover{
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+            color: rgba(119, 127, 204, 0.982);
+        }
+    </style>
+</head>
+<body>
+    <div id="links">
+        <a href="index.html" class="a-hover">Home</a>
+        <a href="index-copy1.html" class="a-hover">Page 1</a>
+        <a href="index-copy2.html" class="a-hover">Page 2</a>
+        <a href="index-copy3.html" class="active" class="a-hover">Page 3</a>
+    </div>
+    <div id="main-div">
+        <div id="div1">
+            <div id="h1-1">Lorem</div>
+        </div>
+        <div id="div2">
+            <div id="div2-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, omnis. Error dolorem doloribus veniam, sit quidem 
+                earum cumque? Saepe aut sit consectetur minima ratione aliquid magnam aperiam error ea quos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis sit quod perspiciatis facere quasi aspernatur minus placeat accusantium aliquid, incidunt eaque obcaecati amet quo assumenda eveniet cumque, consequuntur nam! Tempora!</div>
+            <div id="div2-2"></div>
+            <div id="div2-3">
+                <img src="img/page3-1.png" style="width: 100%; height: auto; ">
+            </div>
+            <div id="div2-4"></div>
+            <div id="div2-5">
+                <div id="div2-5-1">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nulla quae hic similique et incidunt porro vitae eligendi, facilis quasi. 
+                    Accusamus quisquam voluptas deleniti vel excepturi corrupti labore debitis sed!
+                </div>
+                <div id="div2-5-2">
+                    <div id="div2-5-2-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione repudiandae voluptatum minima qui delectus minus consequatur? Excepturi quam nam, optio, eaque reprehenderit dolor cupiditate tempora itaque, voluptatibus pariatur repudiandae.
+                    </div>
+                    <div id="div2-5-2-2"></div>
+                    <div id="div2-5-2-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam nihil voluptatum facere maxime, cum itaque, quis expedita eum beatae eveniet, vel incidunt. Ex porro ipsum aspernatur quidem 
+                        nesciunt, possimus pariatur!</div>
+                </div>
+            </div>
+        </div>
+        <div id="div3"><div id="h1-2">Hello World!</div></div>
+    </div>
+</body>
+</html>

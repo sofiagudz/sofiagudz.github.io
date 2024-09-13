@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        #main-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-basis: 90%;
+            flex-wrap: wrap;
+        }
+        #div1{
+            display: flex; 
+            align-items: center;
+            gap: 20px;
+            justify-content: flex-start;
+            background-color: #96aad4;
+            height: 22vh;
+            width: 80%;
+            border: 2px solid black;
+        }
+        #h1-1{
+            flex-basis: 26%;
+            margin-left: 1%;
+            padding-right: 1%;
+            border: 2px solid black;
+            text-align: right;
+            flex-wrap: wrap;
+            background-color: white;
+            font-size: 2.1em;
+        }
+        #div2{
+            display: flex;
+            width: 80%;
+            height: 47vh;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        #div2-1{
+            flex-basis: 26%;
+            background-color: #ebd4be;
+            border-right: 2px solid black;
+            padding: 3% 0.7% 0 0.9%;
+            max-height: 50vh;
+        }
+        #div2-2{
+            flex-basis: 6%;
+            border-right: 2px solid black;
+        }
+        #div2-3{
+            flex-basis: 20%;
+            border-right: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-height: 50vh;
+        }
+        #div2-4{
+            flex-basis: 6%;
+            border-right: 2px solid black;
+        }
+        #div2-5{
+            width: 42%;
+        }
+        #div2-5-1{
+            flex-basis: 42%;
+            height: 30%;
+            background-color: #ebd4be;
+            border-bottom: 2px solid black;
+            padding: 3% 0.7% 0 2.1%;
+        }
+        #div2-5-2{
+            display: flex;
+            height: 70%;
+        }
+        #div2-5-2-1{
+            flex-basis: 44%;
+            border-right: 2px solid black;
+        }
+        #div2-5-2-2{
+            flex-basis: 14%;
+            border-right: 2px solid black;
+        }
+        #div2-5-2-3{
+            flex-basis: 44%;
+            background-color: #b0cfb4;
+        }
+        #div3{
+            display: flex; 
+            align-items: center;
+            border: 2px solid black;
+            width: 80%;
+            height: 22vh;
+            gap: 20px;
+            justify-content: flex-end;
+            background-color: #96aad4;
+        }
+        #h1-2{
+            flex-basis: 25%;
+            margin-right: 1%;
+            padding-left: 1%;
+            border: 2px solid black;
+            text-align: left;
+            flex-wrap: wrap;
+            background-color: white;
+            font-size: 2.1em;
+        }
+        #links{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin: 0.5% 0 0.5% 0;
+        }
+        a{
+            margin-right: 0.5%;
+            font-size: 1.2em;
+            color: #0a0a0a;
+            text-decoration: none;
+        }
+        .active{
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+            color: rgba(26, 54, 211, 0.982);
+            font-size: 1.3em;
+        }
+        .related{
+            color: #1c1c1d;
+            font-size: 16px;
+            margin: 0 0 0 5%;
+            padding: 0%;
+        }
+        .related:hover{
+            text-decoration: underline;
+        }
+        .a-hover:hover{
+            text-decoration: underline;
+            text-underline-offset: 0.4em;
+            color: rgba(119, 127, 204, 0.982);
+        }
+    </style>
+</head>
+<body>
+    <div id="links">
+        <a href="index.html" class="a-hover">Home</a>
+        <a href="index-copy1.html" class="active" class="a-hover">Page 1</a>
+        <a href="index-copy2.html" class="a-hover">Page 2</a>
+        <a href="index-copy3.html" class="a-hover">Page 3</a>
+    </div>
+    <div id="main-div">
+        <div id="div1">
+            <div id="h1-1">Sony reveals much more expensive and powerful PlayStation 5 Pro</div>
+        </div>
+        <div id="div2">
+            <div id="div2-1">
+                After years of rumour, speculation and hype, Sony has confirmed it is launching a more powerful - and much more expensive - version of its hugely popular PlayStation 5 console.
+The PS5 Pro will be able to show more advanced graphics and display the most demanding games at higher, more consistent frame rates.
+But that added power will come at a cost: the PS5 Pro will be the most expensive console from Sony to date.
+It will cost £699.99 when it launches on 7 November this year - hundreds of pounds more than the PS5. "The price point of the PS5 Pro will inevitably cause a lot of commentary," analyst Piers Harding-Rolls from research firm Ampere said.
+            </div>
+            <div id="div2-2"></div>
+            <div id="div2-3">
+                <img src="img/page1-1.webp" style="width: 100%; height: auto; "><br>
+                <img src="img/page1-2.jpg" style="width: 100%; height: auto; ">
+            </div>
+            <div id="div2-4"></div>
+            <div id="div2-5">
+                <div id="div2-5-1">
+                    Companies have released updated versions of their own consoles with minor revisions for decades, but this release indicates the comparatively new trend of "pro" hardware is here to stay.
+Generally, this means hardware changes to current-generation consoles that lets games look better - but critically these tweaked consoles don't have exclusive games.
+                </div>
+                <div id="div2-5-2">
+                    <div id="div2-5-2-1">
+                        <ul>
+                            <li style="font-size: 1.1em;">Pro consoles</li>
+                            <li style="font-size: 1.1em;">Graphics leap</li>
+                        </ul>
+                        <div style="padding: 3% 0.7% 0 2.4%;">
+                            Today's announcement from Sony is not as significant as the PS4's jump to 4k graphics, but it still represents a step forward in home consoles.
+It comes at a time when PCs have been.
+                        </div>
+                    </div>
+                    <div id="div2-5-2-2"></div>
+                    <div id="div2-5-2-3">
+                        <p style="font-size: 1em; padding-left: 19px;"><b>Related</b></p>
+                        <a href="https://www.bbc.com/news/articles/cjrdwzgq30go" target="_blank"><p class="related">Grand Theft Audio? The tricky business of music and gaming</p></a>
+                        <a href="https://www.bbc.com/news/articles/c1w712e847yo" target="_blank"><p class="related">Astro Bot: Could the old-school hit reshape PS5's future?</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div3"><div id="h1-2">BBC</div></div>
+    </div>
+</body>
+</html>
